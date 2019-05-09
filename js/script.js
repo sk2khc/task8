@@ -18,7 +18,7 @@ $(document).ready(function(){
                         var $title = $('<p>').html('title: '+title);
                         var $thumbnailUrl = $('<p>').html('thumbnailUrl: '+ thumbnailUrl);
 
-                        $('#task').html([$imgs,$title,thumbnailUrl]);
+                        $('#task').html([$imgs,$title,$thumbnailUrl]);
                         $('#numberCounter').html('Now, the current picture is number: ' + orderID);
                         $('#display').html(' Please keep click for next pictures ');
                 },3000);   
